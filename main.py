@@ -1,7 +1,7 @@
 from fastapi import FastAPI, HTTPException
 import joblib
 from pydantic import BaseModel, Field
-from surprise import Dataset, Reader
+import numpy as np
 import pandas as pd
 
 # Load the saved model
